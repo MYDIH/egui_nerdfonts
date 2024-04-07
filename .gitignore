@@ -1,2 +1,8 @@
 target
 Cargo.lock
+fonts/*.ttf
+fonts/_*.zip
+src/variants/*.rs
+!src/variants/mod.rs
+# Temporary, generate this one too ASAP
+!src/variants/regular_unique.rs 

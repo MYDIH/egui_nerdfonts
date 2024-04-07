@@ -10,10 +10,15 @@ keywords = ["egui", "nerdfonts", "icons", "symbols", "font"]
 categories = ["gui"]
 
 [dependencies]
-egui = { version = "0.24.1", default-features = false }
+epaint = { version = "0.27.2", default-features = false }
+
+[build-dependencies]
+zip = { version = "0.6.6", features = ["deflate"], default-features = false }
+ttf-parser = "0.20.0"
+downloader = "0.2.7"
 
 [dev-dependencies]
-eframe = "0.24.1"
+eframe = "0.27.2"
 
 [[example]]
 name = "rust_logo"

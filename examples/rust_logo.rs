@@ -1,3 +1,5 @@
+use eframe::egui;
+
 fn main() {
     eframe::run_native(
         "egui_nerdfonts demo",
